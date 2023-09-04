@@ -1,0 +1,57 @@
+img{
+    /* width: 100px; */
+    width: 22rem;
+    height: 15rem;
+    object-fit: contain;
+}
+
+p{
+    text-decoration: none;
+    /* font-size: 30px; */
+    margin: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin: 3px; */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+.btn button{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.btn span{
+    margin: 10px;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
